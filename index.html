@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nginx + Express Learning Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🚀 Nginx + Express on GCP</h1>
+        <p>A hands-on learning project</p>
+      </header>
+
+      <main>
+        <section class="info-section">
+          <h2>Project Status</h2>
+          <div class="status-grid">
+            <div class="status-card">
+              <h3>Frontend</h3>
+              <span class="status-badge active">Active</span>
+              <p>Static files served by Nginx</p>
+            </div>
+            <div class="status-card">
+              <h3>Backend API</h3>
+              <span class="status-badge" id="api-status">Checking...</span>
+              <p>Express.js server behind reverse proxy</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="api-section">
+          <h2>API Testing</h2>
+          <div class="api-controls">
+            <button id="test-api" class="btn-primary">
+              Test API Connection
+            </button>
+            <button id="get-data" class="btn-secondary">
+              Fetch Sample Data
+            </button>
+          </div>
+          <div class="api-response" id="api-response">
+            <p>Click a button above to test the API</p>
+          </div>
+        </section>
+
+        <section class="tech-stack">
+          <h2>Technology Stack</h2>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <strong>Frontend:</strong> HTML, CSS, JavaScript
+            </div>
+            <div class="tech-item">
+              <strong>Backend:</strong> Node.js + Express.js
+            </div>
+            <div class="tech-item">
+              <strong>Web Server:</strong> Nginx (static + reverse proxy)
+            </div>
+            <div class="tech-item">
+              <strong>Cloud:</strong> Google Cloud Platform
+            </div>
+            <div class="tech-item"><strong>IaC:</strong> Terraform</div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          🌟 Learning Nginx reverse proxy configuration with Express.js backend
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
